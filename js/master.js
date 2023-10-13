@@ -9,10 +9,13 @@ startGameBtnDOMElement.addEventListener('click', function (){
     gameGridDOMElement.innerHTML = ''
 
     for (i = 0; i < 100 ; i++) {
+
         n = i + 1
+        // console.log(n)
 
-        const htmlCell = `<div class='cell>${n}</div>`
+        const htmlCell = `<div class="cell">${n}</div>`
 
-        gameGridDOMElement.innerHTML += htmlCell
+        gameGridDOMElement = gameGridDOMElement.innerHTML + htmlCell
+        console.log(gameGridDOMElement)
     }
 })
