@@ -25,4 +25,22 @@ body {
     justify-content: center;
     align-items: center;
     height: 100px;
+    border: 1px solid lightgreen;
+}
+
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+button { 
+    padding: 10px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 999px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
