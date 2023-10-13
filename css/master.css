@@ -1,0 +1,28 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 100px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.game-grid {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cell {
+    flex-basis: calc(100% / 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
