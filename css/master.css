@@ -30,6 +30,11 @@ body {
 }
 
 
+.bg-azure {
+    background-color: aqua;
+}
+
+
 .button-wrapper {
     display: flex;
     justify-content: center;
